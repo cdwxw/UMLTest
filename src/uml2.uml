@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="uml2">
+  <packagedElement xmi:type="uml:Package" xmi:id="_KemXMDiQEeetXJKQ4E25bw" name="dao">
+    <packagedElement xmi:type="uml:Class" xmi:id="_KenlUDiQEeetXJKQ4E25bw" name="Student">
+      <ownedAttribute xmi:id="_Kf9pIDiQEeetXJKQ4E25bw" name="username" visibility="private" type="_Kf4woTiQEeetXJKQ4E25bw"/>
+      <ownedAttribute xmi:id="_Kf-QMDiQEeetXJKQ4E25bw" name="age" visibility="private" type="_Kf4woDiQEeetXJKQ4E25bw"/>
+      <ownedOperation xmi:id="_KgDvwDiQEeetXJKQ4E25bw" name="getUsername" visibility="public">
+        <ownedParameter xmi:id="_KgDvwTiQEeetXJKQ4E25bw" name="return" type="_Kf4woTiQEeetXJKQ4E25bw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_KgJPUDiQEeetXJKQ4E25bw" name="setUsernmae" visibility="public">
+        <ownedParameter xmi:id="_KgJPUTiQEeetXJKQ4E25bw" name="username" type="_Kf4woTiQEeetXJKQ4E25bw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_KgJ2YDiQEeetXJKQ4E25bw" name="getAge" visibility="public">
+        <ownedParameter xmi:id="_KgJ2YTiQEeetXJKQ4E25bw" name="return" type="_Kf4woDiQEeetXJKQ4E25bw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_KgKdcDiQEeetXJKQ4E25bw" name="setAge" visibility="public">
+        <ownedParameter xmi:id="_KgKdcTiQEeetXJKQ4E25bw" name="age" type="_Kf4woDiQEeetXJKQ4E25bw"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Kf1GQDiQEeetXJKQ4E25bw" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Kf1GQTiQEeetXJKQ4E25bw" name="lang">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Kf4woDiQEeetXJKQ4E25bw" name="Integer"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Kf4woTiQEeetXJKQ4E25bw" name="String"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
